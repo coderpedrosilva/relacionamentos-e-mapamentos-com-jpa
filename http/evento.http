@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/eventos
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyMzk3NjQ4LCJleHAiOjE2OTI0ODQwNDh9.AH4hDFMyYZFysvmdxAyN2iVKw7e6Wpi3PR0mf4Fk0h6YoFP15hFqwk3fdAY86aVouCc5EKwL3mqogj-x-cov5w
+
+{
+   "descricao": "Treinamento Backend java",
+   "dataHora": "2023-08-18T19:46:00",
+   "categoria": {
+    "id": 2
+   }
+}
+
+###
+
+GET http://localhost:8080/api/eventos
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyMzk3NjQ4LCJleHAiOjE2OTI0ODQwNDh9.AH4hDFMyYZFysvmdxAyN2iVKw7e6Wpi3PR0mf4Fk0h6YoFP15hFqwk3fdAY86aVouCc5EKwL3mqogj-x-cov5w
