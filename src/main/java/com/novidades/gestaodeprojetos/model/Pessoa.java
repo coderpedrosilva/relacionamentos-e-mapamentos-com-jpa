@@ -21,9 +21,9 @@ public class Pessoa {
     private String nome;
 
     @OneToOne(mappedBy = "pessoa")
-    // @JsonBackReference // parar a referência, contrária a mandatporia para evitar
+    @JsonBackReference // parar a referência, contrária a mandatporia para evitar
     // loop infinito
-    @JsonManagedReference
+    // @JsonManagedReference
     private Avaliacao avaliacao;
 
     public Long getId() {

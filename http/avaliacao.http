@@ -1,18 +1,33 @@
 POST http://localhost:8080/api/avaliacoes
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyODUyLCJleHAiOjE2OTI1NDkyNTJ9.jCcp9g9KgRkkca1DKNmgMM4t5Uuj3uZgCabysBkZmLkgFwUkhKfyE-5RUEJdGcmW1TeazT-AAsrxpDmoVAZF5g
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDY2MDEwLCJleHAiOjE2OTI1NTI0MTB9.bTvkBiyv0ohMOO6-VVD-pXL9LDFgzOgK_IMJh7rouScW5Nnv5_-p8OLxQNI2t2hyFsGM6CmEjcDGDXyp89ZJdg
 
 
 {
-   "descricao": "Prova API Relacionamentos",
-   "pessoa": {
-      "id": 1
-   }
-
+   "descricao": "Prova API C#"
 }
 
 ###
 
 GET http://localhost:8080/api/avaliacoes
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyODUyLCJleHAiOjE2OTI1NDkyNTJ9.jCcp9g9KgRkkca1DKNmgMM4t5Uuj3uZgCabysBkZmLkgFwUkhKfyE-5RUEJdGcmW1TeazT-AAsrxpDmoVAZF5g
- 
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDY2MDEwLCJleHAiOjE2OTI1NTI0MTB9.bTvkBiyv0ohMOO6-VVD-pXL9LDFgzOgK_IMJh7rouScW5Nnv5_-p8OLxQNI2t2hyFsGM6CmEjcDGDXyp89ZJdg
+
+###
+
+PUT http://localhost:8080/api/avaliacoes/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDY2MDEwLCJleHAiOjE2OTI1NTI0MTB9.bTvkBiyv0ohMOO6-VVD-pXL9LDFgzOgK_IMJh7rouScW5Nnv5_-p8OLxQNI2t2hyFsGM6CmEjcDGDXyp89ZJdg
+
+{
+   "descricao": "Prova API Banco de Dados",
+   "pessoa":{
+      "id": "3"
+   }
+
+}
+
+
+###
+
+DELETE http://localhost:8080/api/avaliacoes/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDY2MDEwLCJleHAiOjE2OTI1NTI0MTB9.bTvkBiyv0ohMOO6-VVD-pXL9LDFgzOgK_IMJh7rouScW5Nnv5_-p8OLxQNI2t2hyFsGM6CmEjcDGDXyp89ZJdg

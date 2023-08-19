@@ -1,6 +1,6 @@
 POST http://localhost:8080/api/pessoas
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyODUyLCJleHAiOjE2OTI1NDkyNTJ9.jCcp9g9KgRkkca1DKNmgMM4t5Uuj3uZgCabysBkZmLkgFwUkhKfyE-5RUEJdGcmW1TeazT-AAsrxpDmoVAZF5g
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDY2MDEwLCJleHAiOjE2OTI1NTI0MTB9.bTvkBiyv0ohMOO6-VVD-pXL9LDFgzOgK_IMJh7rouScW5Nnv5_-p8OLxQNI2t2hyFsGM6CmEjcDGDXyp89ZJdg
 
 
 {
@@ -11,19 +11,15 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyODUyL
 ###
 
 GET http://localhost:8080/api/pessoas
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyODUyLCJleHAiOjE2OTI1NDkyNTJ9.jCcp9g9KgRkkca1DKNmgMM4t5Uuj3uZgCabysBkZmLkgFwUkhKfyE-5RUEJdGcmW1TeazT-AAsrxpDmoVAZF5g
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDY2MDEwLCJleHAiOjE2OTI1NTI0MTB9.bTvkBiyv0ohMOO6-VVD-pXL9LDFgzOgK_IMJh7rouScW5Nnv5_-p8OLxQNI2t2hyFsGM6CmEjcDGDXyp89ZJdg
  
 ###
 
-PUT http://localhost:8080/api/pessoas/2
+PUT http://localhost:8080/api/pessoas/3
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyODUyLCJleHAiOjE2OTI1NDkyNTJ9.jCcp9g9KgRkkca1DKNmgMM4t5Uuj3uZgCabysBkZmLkgFwUkhKfyE-5RUEJdGcmW1TeazT-AAsrxpDmoVAZF5g
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDY2MDEwLCJleHAiOjE2OTI1NTI0MTB9.bTvkBiyv0ohMOO6-VVD-pXL9LDFgzOgK_IMJh7rouScW5Nnv5_-p8OLxQNI2t2hyFsGM6CmEjcDGDXyp89ZJdg
 
 
 {
-   "nome": "Ciclano da Silva",
-   "avaliacao" : {
-         "id": 1
-   }
-
+   "nome": "Beltrano Rodrigues"
 }

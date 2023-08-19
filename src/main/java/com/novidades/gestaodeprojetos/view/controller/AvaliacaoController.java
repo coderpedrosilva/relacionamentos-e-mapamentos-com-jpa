@@ -38,7 +38,7 @@ public class AvaliacaoController {
         return avaliacaoService.adicionar(avaliacao);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     public Avaliacao atualizar(@PathVariable Long id, @RequestBody Avaliacao avaliacao) {
         return avaliacaoService.atualizar(id, avaliacao);
     }

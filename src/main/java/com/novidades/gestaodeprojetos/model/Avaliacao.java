@@ -23,8 +23,8 @@ public class Avaliacao {
 
     @OneToOne
     @JoinColumn(name = "idPessoa")
-    // @JsonManagedReference // mandatória para evitar loop infinito
-    @JsonBackReference
+    @JsonManagedReference // mandatória para evitar loop infinito
+    // @JsonBackReference
     private Pessoa pessoa;
 
     public Long getId() {
