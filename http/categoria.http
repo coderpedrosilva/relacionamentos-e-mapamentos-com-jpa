@@ -1,6 +1,6 @@
 POST http://localhost:8080/api/categorias
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDAzNDMzLCJleHAiOjE2OTI0ODk4MzN9.wwQZG8u8tGOYY9c-IG6SPjAkqQkdgNTiEN9W03oN42wApaDrv8mtR3TnC0NVDIAOMkXPgeu40496pbQ2o-MNIw
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyNDA3LCJleHAiOjE2OTI1NDg4MDd9.hqDG9pRoBAKXrCZx_g3IPNlwp8X-c2gqS9fGALudhw38--YxL7xT1MbpZXK0QyS4y56Btbr_ypCa7lslCW-Wgw
 Authorization: 
 
 {
@@ -10,5 +10,5 @@ Authorization:
 ###
 
 GET http://localhost:8080/api/categorias
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDAzNDMzLCJleHAiOjE2OTI0ODk4MzN9.wwQZG8u8tGOYY9c-IG6SPjAkqQkdgNTiEN9W03oN42wApaDrv8mtR3TnC0NVDIAOMkXPgeu40496pbQ2o-MNIw
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyNDA3LCJleHAiOjE2OTI1NDg4MDd9.hqDG9pRoBAKXrCZx_g3IPNlwp8X-c2gqS9fGALudhw38--YxL7xT1MbpZXK0QyS4y56Btbr_ypCa7lslCW-Wgw
  

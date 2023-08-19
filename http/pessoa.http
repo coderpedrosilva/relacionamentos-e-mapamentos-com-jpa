@@ -1,0 +1,29 @@
+POST http://localhost:8080/api/pessoas
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyODUyLCJleHAiOjE2OTI1NDkyNTJ9.jCcp9g9KgRkkca1DKNmgMM4t5Uuj3uZgCabysBkZmLkgFwUkhKfyE-5RUEJdGcmW1TeazT-AAsrxpDmoVAZF5g
+
+
+{
+   "nome": "Ciclano da Silva"
+
+}
+
+###
+
+GET http://localhost:8080/api/pessoas
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyODUyLCJleHAiOjE2OTI1NDkyNTJ9.jCcp9g9KgRkkca1DKNmgMM4t5Uuj3uZgCabysBkZmLkgFwUkhKfyE-5RUEJdGcmW1TeazT-AAsrxpDmoVAZF5g
+ 
+###
+
+PUT http://localhost:8080/api/pessoas/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDYyODUyLCJleHAiOjE2OTI1NDkyNTJ9.jCcp9g9KgRkkca1DKNmgMM4t5Uuj3uZgCabysBkZmLkgFwUkhKfyE-5RUEJdGcmW1TeazT-AAsrxpDmoVAZF5g
+
+
+{
+   "nome": "Ciclano da Silva",
+   "avaliacao" : {
+         "id": 1
+   }
+
+}
