@@ -1,0 +1,25 @@
+POST http://localhost:8080/api/pizzas
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDcwODEyLCJleHAiOjE2OTI1NTcyMTJ9.HT2PhGY2AesQRN_gWV189S_iXDEOuL7kFIIRcmQQDs2iFsv59EN1Fx6Qe-CIs_G3F6XBWqqXPT3Ki1g6nGyMjg
+
+{
+   "descricao": "Filé com fritas",
+   "ingredientes":
+   [
+      {
+         "id": 1
+      },
+      {
+         "id": 5
+      },
+      {
+         "id": 6
+      }
+   ]
+}
+
+###
+
+GET http://localhost:8080/api/pizzas
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1IiwiaWF0IjoxNjkyNDcwODEyLCJleHAiOjE2OTI1NTcyMTJ9.HT2PhGY2AesQRN_gWV189S_iXDEOuL7kFIIRcmQQDs2iFsv59EN1Fx6Qe-CIs_G3F6XBWqqXPT3Ki1g6nGyMjg
+ 
